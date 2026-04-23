@@ -1,0 +1,11 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Hanya variabel warna — Bootstrap tidak punya ini */
+:root {
+  --gold: #c9a84c;
+  --bs-body-bg: #000;
+  --bs-body-color: #fff;
+  --bs-font-sans-serif: 'Montserrat', 'Segoe UI', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
