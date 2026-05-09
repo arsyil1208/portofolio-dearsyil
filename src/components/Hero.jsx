@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import profile1 from '../assets/image/profile.png'
+import profile1 from '../assets/image/nyender.jpg'
 import profile2 from '../assets/image/profile2.png'
-import profile3 from '../assets/image/profile3.png'
+import profile3 from '../assets/image/trail.jpg'
 
 const photos = [
-  { src: profile1, label: 'Coding' },
-  { src: profile2, label: 'Barista' },
+  { src: profile1, label: 'Myself' },
+  { src: profile2, label: 'Guitaris' },
   { src: profile3, label: 'Trail' },
 ]
 
@@ -101,7 +101,7 @@ export default function Hero() {
               Hubungi Saya
             </a>
             <a href="/cv/cv.pdf" download className="btn fw-bold text-uppercase px-4 py-3"
-              style={{ border: '1px solid #555', color: '#ccc', fontSize: '0.7rem', letterSpacing: '4px' }}>
+              style={{  border: `1px solid ${GOLD}`, color: GOLD, fontSize: '0.7rem', letterSpacing: '4px'  }}>
               Unduh CV
             </a>
           </div>
@@ -147,6 +147,8 @@ export default function Hero() {
         style={{ zIndex: 3, color: '#888', fontSize: '0.65rem', letterSpacing: '3px' }}
       >
         <span className="text-uppercase">Scroll</span>
+        <span className="text-uppercase">|</span>
+        <span className="text-uppercase">V</span>
       </div>
     </section>
   )

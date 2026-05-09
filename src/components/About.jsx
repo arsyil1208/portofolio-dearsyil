@@ -3,17 +3,17 @@ const GOLD = "#dd5d0d";
 const skills = [
   {
     name: "Frontend",
-    pct: 96,
+    pct: 85,
     desc: "React, HTML, CSS — yang paling sering disentuh setiap hari.",
   },
   {
     name: "Backend",
-    pct: 85,
+    pct: 75,
     desc: "Laravel & PHP, masih terus belajar tapi sudah cukup solid.",
   },
   {
     name: "UI & UX",
-    pct: 94,
+    pct: 80,
     desc: "Suka memikirkan flow dan feel-nya sebelum mulai nulis kode.",
   },
 ];
@@ -112,16 +112,20 @@ export default function About() {
                 Wikrama Bogor. Saya menyukai <em>frontend</em> maupun <em>backend</em>, dan fokus
                 membuat produk yang nyaman digunakan. Sekarang sudah jadi hal
                 yang benar-benar dinikmati — terutama saat membangun sesuatu
-                yang terlihat bagus yang nyaman dipakai.
+                yang terlihat bagus dan nyaman dipakai.
               </p>
               <p
                 className="mb-4"
                 style={{ color: "#888", lineHeight: 1.9, fontSize: "0.9rem" }}
               >
                 Sudah pernah membangun website dengan <em>Laravel, React.js, dan
-                HTML dasar.</em> Masih banyak yang ingin dipelajari, tapi lebih suka
-                langsung mencoba daripada sekadar membaca teori.
+                  HTML dasar.</em> Masih banyak yang ingin dipelajari, jadi saya lebih suka langsung mencoba dan praktik sendiri.
               </p>
+              <p className="mb-4"
+                style={{ color: "#888", lineHeight: 1.9, fontSize: "0.9rem" }}>
+                Saya juga mengikuti ekstrakurikuler barista. Jadi selain suka ngoding,
+                saya juga senang meracik kopi. Buat saya, bikin website dan bikin kopi 
+                itu mirip — sama-sama perlu detail, rasa, dan pengalaman yang nyaman untuk orang lain.              </p>
               <p
                 style={{
                   color: "rgba(221, 114, 0, 0.86)",
