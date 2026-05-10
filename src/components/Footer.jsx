@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 
 const GOLD = '#dd5d0d'
 
@@ -44,6 +44,22 @@ export default function Footer() {
               </a>
 
               <a
+                
+              href="https://www.linkedin.com/in/de-arsyil-putera-pertama-a54b87409"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  color: '#888',
+                  fontSize: '1.2rem',
+                  transition: '0.3s'
+                }}
+                onMouseEnter={e => (e.target.style.color = GOLD)}
+                onMouseLeave={e => (e.target.style.color = '#888')}
+              >
+                <FaLinkedin />
+              </a>
+
+              <a
                 href="https://instagram.com/d_archyll"
                 target="_blank"
                 rel="noreferrer"
@@ -56,6 +72,21 @@ export default function Footer() {
                 onMouseLeave={e => (e.target.style.color = '#888')}
               >
                 <FaInstagram />
+              </a>
+
+              <a
+                href="https://wa.me/6287777160675"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  color: '#888',
+                  fontSize: '1.2rem',
+                  transition: '0.3s'
+                }}
+                onMouseEnter={e => (e.target.style.color = GOLD)}
+                onMouseLeave={e => (e.target.style.color = '#888')}
+              >
+                <FaWhatsapp />
               </a>
             </div>
           </div>
